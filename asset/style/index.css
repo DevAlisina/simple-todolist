@@ -1,0 +1,42 @@
+body.light-mode {
+    background-color: #f7f7f7;
+    color: #000;
+  }
+  body.dark-mode {
+    background-color: #1e1e1e;
+    color: #eee;
+  }
+  .todo-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: inherit;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  .todo-item:last-child {
+    border-bottom: none;
+  }
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  .btn-icon {
+    margin-left: 5px;
+  }
+  select, input[type="text"] {
+    margin-bottom: 10px;
+  }
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.85rem;
+    color: #777;
+  }
